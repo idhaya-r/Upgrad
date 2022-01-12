@@ -29,10 +29,17 @@
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
+- numpy
+- pandas
+- seaborn
+- matplotlib.plot
+- sklearn.model_selection
+- sklearn.pre_processing
+- sklearn.feature_selection
+- sklearn.linear_model
+- statsmodels.api
+- statsmodels.stats.outliers_influence
+- sklearn.metrics
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Contact
