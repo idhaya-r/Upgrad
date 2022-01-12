@@ -18,9 +18,15 @@
 - Data Quality : Checking the quality of data by checking the outliers in the continuous variables. 
     Mapping the categorical variables with numerical data to string data for better readability
 - Exploratory data analysis:  To understand if there is any patterns and creating derived variables to understand the data better.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Split the data : The data should be splitted into two dataframes for training and testing. Train part of the data is used to fit the model. Test part of the data should be used to predict the model and validate the assumptions
+- Scale the data for training : If there is varying scale across the variables it would be difficult to interpret the coffecients at the end.So the model should have scaled data where the variable values lies in the same range. This can be done using minmaxscaler.
+- Recursive Feature Elimination : Since we have close to 60+ columns, it wouldn't make sense to try out all the columns which might result in multicolinearity.To avoid such cases let us go through RFE to select the features which is of significance and then test it out iteratively in our linear model
+- Model Selection : Run the models with varying set of parameters to understand its impact and use VIF to understand the inflation factor and remove the variables with high inflation factor and low significance.
+- Evaluating features: Make sure that the features are not highly  correlated with each other.
+- Residual Analysis:  Analyzing the error terms on both train and test data, to ensure the assumptions of linear regression.
+- Model evaluation :  Evaluating the model by comparision of predicted vs actual.
+    Calculate the mean squared error and r2score of the model selected.
+- Caclculate metrics: Calculate metrics to understand whether the model is performing according to expectations.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
