@@ -4,15 +4,20 @@
 
 
 ## Table of Contents
-* [General Info](#general-information)
+* [Analysis approach](#analysis-approach)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
-## General Information
-- Provide general information about your project here.
+## Analysis Approach
+- Business understanding : To evaluate the demand for the upcoming year based on the data provided.
+- Data Understanding:  Understanding the data by exploring it and understanding its characterisitics.
+- Data Cleaning and manipulation : Clean the data. Set the data to correct datatypes. 
+- Data Quality : Checking the quality of data by checking the outliers in the continuous variables. 
+    Mapping the categorical variables with numerical data to string data for better readability
+- Exploratory data analysis:  To understand if there is any patterns and creating derived variables to understand the data better.
 - What is the background of your project?
 - What is the business probem that your project is trying to solve?
 - What is the dataset that is being used?
