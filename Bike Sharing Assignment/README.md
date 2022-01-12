@@ -22,7 +22,7 @@
 ## Conclusions
 - Factors affecting the demand
      - atemp - Based on the feeling of temperature, the demand raises upto 46%
-     - YEAR_2019 - Year on Year the business is around 23%
+     - YEAR_2019 - Year on Year the business improvement is around 23%
      - There is a constant baseline demand of around 20% from the average.
      - These three factors contribute to around 89% percent of demand and thus help in predicting the demand.
 - Recommendations to business
