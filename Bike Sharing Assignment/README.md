@@ -20,10 +20,14 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Factors affecting the demand
+     - atemp - Based on the feeling of temperature, the demand raises upto 46%
+     - YEAR_2019 - Year on Year the business is around 23%
+     - There is a constant baseline demand of around 20% from the average.
+     - These three factors contribute to around 89% percent of demand and thus help in predicting the demand.
+- Recommendations to business
+    - Year on Year , the business is in the upward trend, so no problem with business growth post pandemic.
+    - Downtime and busytime can be predicted based on the weather. Business can use the downtime for maintence, during busy time they can look for ways to expand the supply.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
